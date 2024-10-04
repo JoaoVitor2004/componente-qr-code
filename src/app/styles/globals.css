@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Slate300: hsl(212, 45%, 89%);
+  --Slate500: hsl(216, 15%, 48%);
+  --Slate900: hsl(218, 44%, 22%);
+  --font-primary: 'Outfit', verdana, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.corpo {
+  font-family: var(--font-primary);
+  background-color: var(--Slate300);
+}
